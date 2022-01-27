@@ -52,20 +52,20 @@ export default function Reports() {
       </div>
 
       <div>
-        <table className="projects">
+        <div className="projects">
           {projects.map((pr, i) => (
-            <tr className="row block center">
-              <td>{pr.name}</td>
+            <div className="block center">
+              <div>{pr.name}</div>
               {gateways.map((gt, i) => (
                 <ul>
                   <il>
-                    <td>{gt.name}</td>
+                    {gt.name}
                   </il>
                 </ul>
               ))}
-            </tr>
+            </div>
           ))}
-        </table>
+        </div>
       </div>
     </main>
   );
