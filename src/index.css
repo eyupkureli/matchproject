@@ -46,3 +46,33 @@ a {
 .row .center {
   align-items: center;
 }
+
+.buttons { 
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.buttons button { 
+  width: 100%;
+  margin: auto;
+}
+
+.color1 {
+  background-color: #1bc5bd;
+  color: white;
+}
+
+.color2 {
+  background-color:#005B96;
+  color: white;
+}
+
+.description {
+  font-size: xx-small;
+}
+
+.projects {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
